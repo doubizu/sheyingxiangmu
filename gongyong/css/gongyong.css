@@ -1,7 +1,17 @@
 body {
 	font-family: "微软雅黑";
 }
-
+.slick-slide{
+	position: relative;
+}
+.span-cc{
+	position: absolute;
+	top: 90%;
+	left: 60%;
+	font-size: 18px;
+	font-weight: bold;
+	color: #f00;
+}
 .header {
 	width: 100%;
 	height: 100%;
@@ -103,16 +113,6 @@ body {
 }
 .header-aa-bb{
 	position: relative;
-}
-#your-class {
-	position: absolute;
-	top: 80%;
-	left: 60%;
-	font-size: 18px;
-	font-weight: bold;
-}
-#your-class a{
-	color: #f0b20a;
 }
 .col-md-4 {
 	padding-right: 0px;

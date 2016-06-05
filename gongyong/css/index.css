@@ -1,0 +1,15 @@
+.index-content {
+  width: 100%;
+}
+.index-content .index-content-top p {
+  color: #dab72c;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+.index-content .index-content-top img {
+  width: 100%;
+}
+.col-md-4 {
+  width: 33.33333333%;
+}
+/*# sourceMappingURL=index.css.map */
