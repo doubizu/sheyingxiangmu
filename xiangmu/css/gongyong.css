@@ -1,0 +1,286 @@
+body {
+	font-family: "微软雅黑";
+}
+.slick-slide{
+	position: relative;
+}
+.span-cc{
+	position: absolute;
+	top: 90%;
+	left: 60%;
+	font-size: 18px;
+	font-weight: bold;
+	color: #f00;
+}
+.header {
+	width: 100%;
+	height: 100%;
+}
+
+.header .header-top {
+	background: #efefef;
+	opacity: 0.7;
+	padding-top: 5px;
+	height: 35px;
+}
+
+.header .header-top iframe {
+	padding-left: 15%;
+}
+
+.header .header-top .form {
+	position: relative;
+	text-align: right;
+}
+
+.header .header-top .form .header-btn {
+	width: 300px;
+	height: 28px;
+	border: 1px solid #dab72c;
+}
+
+.header-top .form .header-img {
+	position: absolute;
+	width: 25px;
+	left: 90%;
+}
+
+.header .header-top span {
+	padding-left: 64%;
+}
+
+.header .header-top span a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.header-top .header-li a {
+	color: #000;
+}
+
+.header-aa .header-a1 {
+	background: #efefef;
+	height: 55px;
+	line-height: 50px;
+	text-align: center;
+	position: relative;
+}
+
+.header .header-aa img {
+	width: 100%;
+	height: 460px;
+}
+
+.header-aa .header-a1 img {
+	width: 38px;
+	height: 38px;
+}
+
+.header-aa .header-a1 li {
+	background: #efefef;
+	padding: 0px 5px;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	margin-top: 2px;
+}
+
+.header-aa .header-a1 li:hover {
+	background: #000000;
+}
+
+.header .header-aa .header-aa-aa {
+	position: relative;
+}
+
+.header-aa-aa .header-logo {
+	position: absolute;
+	top: 35%;
+	left: 30%;
+}
+
+.header-aa-aa .header-logo h1 {
+	color: #fff;
+}
+
+.header-aa-aa .header-logo .span-aa {
+	color: #dab72c;
+}
+
+.header-aa-aa .header-logo .span-bb {
+	color: #ccc;
+	font-size: 15px;
+}
+.header-aa-bb{
+	position: relative;
+}
+.col-md-4 {
+	padding-right: 0px;
+}
+
+.col-md-8 {
+	padding-left: 0px;
+}
+
+.navbar {
+	background: #000;
+	min-height: 55px;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+	color: #dab72c;
+	background-color: #3c3c3e;
+	font-size: 16px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #dab72c;
+	font-size: 16px;
+}
+
+.navbar-nav>li>a {
+	line-height: 25px;
+	width: 100px;
+	text-align: center;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #fff;
+	background: #3c3c3e;
+}
+
+@media screen and (max-width: 768px) {
+	.navbar-nav>li>a {
+		line-height: 25px;
+		width: 100%;
+		text-align: center;
+	}
+	.header .header-top .form {
+		position: relative;
+		padding-left: 10%;
+		display: none;
+	}
+	.header .header-top span {
+		padding-left: 30%;
+	}
+	.header .header-top iframe {
+		padding-left: 15%;
+		font-size: 12px;
+		width: 220px;
+	}
+	.footer .footer-row dd .form {
+		position: relative;
+		display: block;
+	}
+	.footer .footer-row .form .header-img {
+		position: absolute;
+		width: 25px;
+		left: 10%;
+	}
+	.footer .footer-row .form .header-btn {
+		width: 330px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.header .header-top .form {
+		position: relative;
+		padding-left: 45%;
+	}
+	.header .header-top .form .header-btn {
+		width: 250px;
+		height: 28px;
+		border: 1px solid #dab72c;
+	}
+	.header .header-top .form .header-img {
+		position: absolute;
+		width: 25px;
+		left: 115%;
+		top: 13%;
+	}
+	.header .header-aa .header-aa-aa {
+		position: relative;
+	}
+	.header-aa-aa .header-logo {
+		position: absolute;
+		top: 35%;
+		left: 40%;
+	}
+	.footer .footer-row {
+		text-align: center;
+	}
+}
+
+
+/*//页脚*/
+
+.footer {
+	width: 100%;
+	background: #181818;
+}
+
+.footer .container-aa {
+	padding-top: 60px;
+}
+
+.footer dl dt {
+	padding-bottom: 15px;
+}
+
+.footer dl dt a {
+	font-size: 14px;
+	color: #dab72c;
+	text-decoration: none;
+}
+
+.footer dl dd {
+	padding: 10px 0px;
+}
+
+.footer dl dd a {
+	color: #C0C0C0;
+	text-decoration: none;
+}
+
+.footer dl dd a:hover {
+	color: #f00;
+}
+
+.footer .footer-row .form {
+	position: relative;
+	display: none;
+}
+
+.footer .footer-row .form .header-img {
+	position: absolute;
+	width: 25px;
+	left: 80%;
+}
+
+.footer-bb {
+	width: 100%;
+	background: #000000;
+}
+
+.footer-bb .footer-dd a {
+	color: #C0C0C0;
+	text-decoration: none;
+}
+
+.footer-bb .footer-dd a:hover {
+	color: #f00;
+}
+
+.footer-bb .footer-dd span {
+	padding-left: 5px;
+}
+
+.footer-bb p {
+	color: #C0C0C0;
+}
