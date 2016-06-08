@@ -1,7 +1,12 @@
 .index-content {
   width: 100%;
 }
-.index-content .index-content-top .p-aa {
+.index-content h1 a {
+  color: #666;
+  text-decoration: none;
+}
+.index-content .p-aa a {
+  display: block;
   color: #dab72c;
   font-size: 20px;
   margin-bottom: 45px;
@@ -30,7 +35,7 @@
 .index-content .index-content-center {
   width: 100%;
   background: #EFEFEF;
-  margin: 25px 0px 28px 0px;
+  margin: 25px 0 28px;
   padding-bottom: 30px;
 }
 .index-content .index-content-center h1 {
@@ -121,6 +126,9 @@
   margin: 15px;
   border: 1px solid #dab72c;
 }
+.index-content .index-content-center .center-right .center-right1 h2 {
+  text-align: center;
+}
 .index-content .index-content-bttom .index-row {
   margin-top: 30px;
   margin-bottom: -10px;
@@ -129,13 +137,49 @@
   text-align: center;
   margin-top: 50px;
 }
-.index-content .index-content-bttom .index-row .index-row-aa h3 {
+.index-content .index-content-bttom .index-row .index-row-aa h3 a {
+  display: block;
   padding: 15px;
   color: #dab72c;
+  text-decoration: none;
 }
 .index-content .index-content-bttom .index-row .index-row-aa p {
   font-size: 16px;
   padding: 15px;
+}
+.index-content .index-content-bttom .index-row .index-row-bb {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.index-content .index-content-bttom .index-row .index-row-bb:hover .index-row-bb1 {
+  animation: tiao1 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  animation-fill-mode: forwards;
+}
+.index-content .index-content-bttom .index-row .index-row-bb .index-bottom-img {
+  width: 100%;
+  z-index: -1;
+}
+.index-content .index-content-bttom .index-row .index-row-bb .index-row-bb1 {
+  width: 100%;
+  height: 400px;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(100%);
+}
+.index-content .index-content-bttom .index-row .index-row-bb .index-row-bb1 h5 {
+  font-size: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 120px;
+}
+.index-content .index-content-bttom .index-row .index-row-bb .index-row-bb1 p {
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: center;
 }
 .index-content .index-content-bttom1 {
   background: #EFEFEF;
@@ -148,11 +192,13 @@
   background: #FFFFFF;
   height: 180px;
   border: 2px solid #dab72c;
+  overflow: hidden;
+  margin-bottom: 20px;
 }
 .index-content .index-content-bttom1 .index-bottom1 .index-bottom1-left {
   width: 120px;
   height: 150px;
-  margin: 46px 10px 0px 10px;
+  margin: 46px 10px 0;
   float: left;
 }
 .index-content .index-content-bttom1 .index-bottom1 .index-bottom1-left img {
@@ -161,10 +207,22 @@
 .index-content .index-content-bttom1 .index-bottom1 .index-bottom1-right {
   margin-top: 15px;
 }
-.index-content .index-content-bttom1 .index-bottom1 .index-bottom1-right dd {
+.index-content .index-content-bttom1 .index-bottom1 .index-bottom1-right dl {
+  padding-right: 10px;
+}
+.index-content .index-content-bttom1 .index-bottom1 .index-bottom1-right dl dt {
+  margin-bottom: 10px;
+}
+.index-content .index-content-bttom1 .index-bottom1 .index-bottom1-right dl dt a:hover {
+  color: #FF0000;
+}
+.index-content .index-content-bttom1 .index-bottom1 .index-bottom1-right dl dd {
   text-indent: 2em;
 }
-.index-content .index-content-bttom1 .index-bottom1 .index-bottom1-right a {
+.index-content .index-content-bttom1 .index-bottom1 .index-bottom1-right dl dd a:hover {
+  border-bottom: 1px solid #dab72c;
+}
+.index-content .index-content-bttom1 .index-bottom1 .index-bottom1-right dl a {
   color: #000000;
   text-decoration: none;
 }
@@ -174,5 +232,13 @@
 a {
   color: #dab72c;
   text-decoration: none;
+}
+@keyframes tiao1 {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 /*# sourceMappingURL=index.css.map */
