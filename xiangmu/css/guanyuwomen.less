@@ -1,0 +1,123 @@
+.guanyuwomen {
+    margin-top: 15px;
+    .guanyuwomen-left {
+        width: 100%;
+        background: #CCCCCC;
+        padding: 2px 50px;
+        cursor: pointer;
+        p {
+            font-size: 16px;
+            text-indent: 2em;
+            line-height: 2em;
+            .guanyuwom-span a {
+                color: #f00;
+                font-size: 18px;
+            }
+        }
+        .guanyuwm-daxiao {
+            position: relative;
+            a {
+                text-decoration: none;
+                &:hover{
+                    color: #f00;
+                }
+            }
+            .guan-left {
+                position: absolute;
+                top: -700px;
+                left: -42px;
+            }
+            .guan-right {
+                position: absolute;
+                top: -700px;
+                left: 670px;
+            }
+            .guan-left,
+            .guan-right {
+                width: 35px;
+                height: 35px;
+                line-height: 40px;
+                font-size: 20px;
+                color: #fff;
+                text-align: center;
+                background: rgba(0,0,0,.3);
+                z-index: 2;
+                display: block;
+            }
+        }
+    }
+    .guanyuwomen-right {
+        width: 100%;
+        overflow: hidden;
+        .guanyu-topian {
+            position: relative;
+            width: 100%;
+            margin: 0 0 35px;
+            overflow: hidden;
+            & a:hover .guanyu-topian-a {
+                display: block;
+            }
+            .guanyu-img {
+                width: 100%;
+                height: 100%;
+            }
+            .guanyu-topian-a {
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0,0,0,0.5);
+                text-align: center;
+                display: none;
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                }
+                h3 {
+                    color: #fff;
+                    margin-top: 100px;
+                    text-decoration: none;
+                }
+                p {
+                    font-size: 16px;
+                    text-decoration: none;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .guanyuwomen .guanyuwomen-left {
+        margin-bottom: 20px;
+    }
+    .guanyuwomen .guanyuwomen-right .guanyu-topian .guanyu-topian-a h3 {
+        color: #fff;
+        margin-top: 200px;
+        text-decoration: none;
+    }
+    .guanyuwomen .guanyuwomen-left .guanyuwm-daxiao .guan-right {
+        position: absolute;
+        top: -700px;
+        left: 640px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .guanyuwomen .guanyuwomen-left {
+        margin-bottom: 20px;
+    }
+    .guanyuwomen .guanyuwomen-right .guanyu-topian .guanyu-topian-a h3 {
+        color: #fff;
+        margin-top: 200px;
+        text-decoration: none;
+    }
+    .guanyuwomen .guanyuwomen-left .guanyuwm-daxiao .guan-right {
+        position: absolute;
+        top: 600px;
+        left: 100px;
+    }
+}
